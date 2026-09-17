@@ -1,5 +1,6 @@
 import { Page, Locator } from "@playwright/test";
-
+ 
+  // Page Object for Checkout Page
 export class CheckoutPage {
     readonly page: Page;
     readonly creditCardNumberInput: Locator;
